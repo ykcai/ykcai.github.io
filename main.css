@@ -1,0 +1,99 @@
+/*----Tablets----*/
+@media only screen and (min-width: 768px){
+	.jumbotron{
+		margin: auto;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/*--Smartphones--*/
+@media only screen and (min-width:320px){
+	.jumbotron{
+		margin: auto;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+html,body {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	background: none;
+	text-align: center;  
+	font-family: 'Cabin', serif;
+}
+#wrapper{
+	min-height: 100%;
+	position: relative;
+}
+.container-fluid{
+	width: 100%;
+	height:100%;
+	background: white;
+	background-size: cover;
+}
+
+
+.title h1{
+	font-size: 500%;
+}
+.title h2{
+	font-size: 250%
+}
+
+.jumbotron {
+	background: none;
+	padding-top: 3em;
+	padding-bottom: 3em; 
+	max-width: 60em; 
+	margin: auto;
+}
+
+.about{
+	font-size: 150%;
+    padding-top: 1.0em;
+    padding-bottom: 1.0em;
+    
+}
+
+.about a, a:visited, a:hover, a:active {
+    text-decoration:none;
+}
+
+.about a {
+	color: #0951ab ; 
+	opacity: 1;
+	transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-webkit-transition: opacity .15s ease-in-out;
+} 
+
+.about a:hover { 
+	background: none;
+	opacity: 0.5;
+}
+
+	
+.links a, a:visited, a:hover, a:active {
+text-decoration:none;
+color: #0951ab ; 
+}
+
+.links a {
+font-size: 4em;
+color: #0951ab ; 
+opacity: 1;
+transition: opacity .15s ease-in-out;
+-moz-transition: opacity .15s ease-in-out;
+-webkit-transition: opacity .15s ease-in-out;
+} 
+
+.links a:hover { 
+background: none;
+opacity: 0.5;
+}
+
