@@ -78,8 +78,8 @@ html,body {
 }
 
 .circular {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
@@ -87,6 +87,7 @@ html,body {
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    vertical-align: middle;
 	}
 	
 .links a, a:visited, a:hover, a:active {
