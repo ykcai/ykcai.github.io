@@ -65,7 +65,7 @@ html,body {
 }
 
 .about a {
-	color: #0951ab ; 
+	color: #FF0000 ; 
 	opacity: 1;
 	transition: opacity .15s ease-in-out;
 	-moz-transition: opacity .15s ease-in-out;
@@ -80,12 +80,12 @@ html,body {
 	
 .links a, a:visited, a:hover, a:active {
 text-decoration:none;
-color: #0951ab ; 
+color: #FF0000 ; 
 }
 
 .links a {
 font-size: 4em;
-color: #0951ab ; 
+color: #FF0000 ; 
 opacity: 1;
 transition: opacity .15s ease-in-out;
 -moz-transition: opacity .15s ease-in-out;
