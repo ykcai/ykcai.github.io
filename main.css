@@ -16,6 +16,20 @@
 	}
 }
 
+.headshot { 
+	margin: auto; 
+	width: 150px; 
+	height: 150px; 
+	background: url("headshot.png"); 
+	background-size: cover; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	display: block; 
+	border-radius: 75px; 
+	-webkit-border-radius: 75px; 
+	-moz-border-radius: 75px; 
+}
 
 html,body {
 	margin:0;
