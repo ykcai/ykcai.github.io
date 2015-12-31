@@ -1,62 +1,136 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="author" content="Michael Cai">
-		<meta name="description" content="The website of Michael Cai">
-		<meta name="keywords" content="Michael,Cai,Electrical,Engineer,Waterloo">
-		<meta name="viewpoint" content="width=device-width, initial-scale=1">
-		<title>Michael Cai  </title>
-		<link rel="icon" href="MC_Logo.png">
-		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="main.css">
-		<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <noscript>
+      <link rel="stylesheet" href="css/skel.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style-wide.css">
+    </noscript>
+    <link rel="stylesheet" href="css/timeline_style.css">
+    <link rel="icon" href="MC_Logo.png">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script src="js/jquery.scrollzer.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/clickme.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-60100785-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="js/init.js"></script>
+    <script src="js/timeline_init.js"></script>
 
-			ga('create', 'UA-61002430-1', 'auto');
-			ga('send', 'pageview');
+    <title>Michael Cai</title>
+  </head>
+  <body>
+    <!--div data-action="toggleLayer" data-args="sidePanel" class="toggle"></div-->
+    <!--div class="clear-menu-btn" ><input type="checkbox">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+        <span class="circle"></span>
+    </div-->
+    <div id="header" class="skel-layers-fixed">
+      <div class="top">
+        <div id="logo">
+          <h1 id="title"><Michael Cai</h1>
+          <p>2A Electrical Engineering</br>
+            University of Waterloo
+          </p>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+            <li><a href="#experience" id="experience-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Experience</span></a></li>
+            <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="bottom">
+        <ul class="icons">
+          <li><a href="https://www.facebook.com/M1C9A9I6" target="_blank"class="icon fa-facebook-square"><span class="label">Facebook</span></a></li>
+          <li><a href="https://ca.linkedin.com/in/yuankuncai" target="_blank"class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
+          <li><a href="https://github.com/ykcai" target="_blank"class="icon fa-github-square"><span class="label">Github</span></a></li>
+          <li><a target="_top" href="mailto:ykcai@uwaterloo.ca" target="_blank"class="icon fa-envelope-square"><span class="label">Email</span></a></li>
+        </ul>
+      </div>
+    </div>
 
-		</script>
-	</head>
-	<body>
-		<div class ="container-fluid">
-			<div class="jumbotron">
-                <div class="headshot"></div>
-				<div class="title">
-					<h1>Michael Cai</h1>
-					<h2>Leader. Engineer. Innovator.</h2>
-				</div>
-				<div class ="about"> 
-					<p align="justify">
-						Welcome! Current co-op at <a href="http://pivotallabs.com/" target="new">Pivotal Labs </a> as a Software Engineer in Reliability and Automation. Candidate for Bachelor of Applied Science in 
-						<a href="https://uwaterloo.ca/electrical-computer-engineering/" target="new"> 
-						Electrical Engineering </a> at the University of Waterloo. I'm interested in embedded/control systems, power system controllers, the future of battery technology with a focus on software and hardware design. Looking for a future co-op/internship during May - August 2016.
-					</p>
-				</div>
-				<div class="links" id="links">
-				 	<div class="col-xs-3">
-				 		<a href="Michael Cai.pdf" target ="new" id="resume"> <i class="fa fa-briefcase"></i></i></a>
-				 	</div>
-					<div class="col-xs-3">
-						<a href="http://github.com/ykcai" target="new" id="github"> <i class="fa fa-github"></i></a> 
-					</div> 
-					<div class="col-xs-3">
-						<a href="https://ca.linkedin.com/pub/michael-cai/9b/10b/315" target="new" id="linkedin"> <i class="fa fa-linkedin"></i> </a>
-					</div>
-					<div class="col-xs-3">
-						<a href="mailto:ykcai@uwaterloo.ca" id="contact"> <i class="fa fa-envelope-o"></i></a>
-					</div>	
-				</div>
-			</div>
-		</div>		
-	</body>
-	<!---Js at the end to load page faster-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <div id="main">
+
+      <section id="about" class="two">
+        <div class="container">
+          <header>
+            <h2>About Me</h2>
+          </header>
+          <p>
+            Hello! My name is Michael Cai. I am a second year Electrical Engineering student at the University of Waterloo.   
+            I'm particularly interested in firmware, automation, telecommunications,
+            design, and in general, hardware development.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="three">
+        <div class="container">
+          <header>
+            <h2>Experience</h2>
+          </header>
+          <section id="timeline" class="style2 right dark fullscreen">
+            <div class="content box style2">
+
+              <section id="cd-timeline" class="cd-container">
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-randomcolor"></div>
+                  <div class="cd-timeline-content">
+                    <h2>Agile Software Test Engineer</h2> at <h2>Pivotal Labs</h2>
+                    <br><p>Exploratory Testing, Automation and Manual Testing</p>
+                    <span class="cd-date">September - December 2015 </span>
+                  </div>
+                </div>
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-randomcolor"></div>
+                  <div class="cd-timeline-content">
+                    <h2>Technology Development Engineer</h2> at <h2>Hydro One</h2>
+                    <br><p>InfoExtract, HVDC and HVAC, Power Flow Controller</p>
+                    <span class="cd-date">January - May 2015</span>
+                  </div>
+                </div>
+                
+              </section>
+            </div>
+          </section>
+          <a href="Michael~Cai.pdf" target="_blank" class="button" onclick="ga('send', 'event', 'button', 'downloadResume');">
+            <i class="fa fa-download"></i> Download Resume
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="four">
+        <div class="container">
+          <header>
+            <h2>Contact</h2>
+          </header>
+
+          Connect with me through social media:
+          <ul>
+            <li><a href="https://www.facebook.com/M1C9A9I6" target="_blank"class="icon fa-facebook-square"><span class="label">Facebook</span></a></li>
+          <li><a href="https://ca.linkedin.com/in/yuankuncai" target="_blank"class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
+          <li><a href="https://github.com/ykcai" target="_blank"class="icon fa-github-square"><span class="label">Github</span></a></li>
+          </ul>
+          Or send me a message at
+          <a target="_top" href="mailto:ykcai@uwaterloo.ca">ykcai@uwaterloo.ca</a>.
+
+        </div>
+      </section>
+
+    </div>
+  </body>
 </html>
