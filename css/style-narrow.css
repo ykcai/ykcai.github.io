@@ -1,96 +1,81 @@
-	body,input,textarea,select
-	{
-		font-size: 16pt;
-	}
+body,
+input,
+textarea,
+select {
+  font-size: 16pt;
+}
 
-	.container
-	{
-		padding: 0 2em 0 2em;
-	}
+.container {
+  padding: 0 2em 0 2em;
+}
 
-	/* List */
+/* List */
 
-		ul
-		{
-		}
+ul {
+}
 
-			ul.icons
-			{
-			}
+ul.icons {
+}
 
-				ul.icons li
-				{
-				}
+ul.icons li {
+}
 
-				ul.icons li a
-				{
-					width: 1.75em;
-				}
+ul.icons li a {
+  width: 1.75em;
+}
 
-	/* Item */
+/* Item */
 
-		.item
-		{
-			margin-bottom: 20px;
-		}
+.item {
+  margin-bottom: 20px;
+}
 
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#header
-	{
-		width: 20%;
-	}
+#header {
+  width: 20%;
+}
 
-	#logo
-	{
-	}
+#logo {
+}
 
-		#logo .image
-		{
-			position: relative;
-			margin: 0 0 0.5em 0;
-		}
+#logo .image {
+  position: relative;
+  margin: 0 0 0.5em 0;
+}
 
-	#nav
-	{
-	}
+#nav {
+}
 
-		#nav ul
-		{
-		}
+#nav ul {
+}
 
-			#nav ul li
-			{
-			}
+#nav ul li {
+}
 
-				#nav ul li a
-				{
-					font-size: 0.8em;
-					padding-top: 0.5em;
-					padding-bottom: 0.5em;
-				}
+#nav ul li a {
+  font-size: 0.8em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
 
-					#nav ul li a span
-					{
-						padding-right: 2.25em;
-					}
+#nav ul li a span {
+  padding-right: 2.25em;
+}
 
-						#nav ul li a span:before
-						{
-							left: 100%;
-							margin-left: -1.25em;
-							line-height: 2.25em;
-						}
-
+#nav ul li a span:before {
+  left: 100%;
+  margin-left: -1.25em;
+  line-height: 2.25em;
+}
 
 /*********************************************************************************/
 /* Main                                                                          */
 /*********************************************************************************/
 
-	#main
-	{
-		margin-left: 20%;
-		font-size: 13pt;
-	}
+#main {
+  margin-left: 20%;
+  font-size: 13pt;
+}
